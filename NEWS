@@ -1,0 +1,29 @@
+##########
+v0.3-0
+##########
+- The grid search has now been re-done. Now lambda and c are found together.
+
+##########
+v0.2-4
+##########
+- Adapted JSS paper for vignette
+
+##########
+v0.2-3
+##########
+- Corrected a bug in bonferroniIntervals(), which did not allow for k=1.
+
+##########
+v0.2-2
+##########
+- Add function for returning Bonferroni intervals.
+- Add function for returning bootstrap intervals.
+- Add function for returning asymmetric intervals.
+- venterCI and qStudMax removed from function list.
+- Added references to useR! 2013 and Claudio's paper.
+
+##########
+v0.2-1
+##########
+- All cases handled with one set of functions: eqnForMin, optimalC and
+  optimalLambda
